@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+    <h1>Mini cursos de tecnologia</h1>
+    <main>
+        
+        <form >
+            
+            <label for="">NOME</label>
+            <input type="text" name="email" id="email"required>
+            <br>
+
+            <label for="">EMAIL</label>
+            <input type="text" name="" id="nome" required>
+            <br>
+            
+            <label for="">telefone</label>
+            <input type="text" name="telefone" id="telefone"required>
+            <br>
+
+            <label for="">Senha</label>
+            <input type="password" name="senha" id=""required>
+            <br>
+
+            <label for="">nascimento</label>
+            <input type="date" name="nascimento" id=""required>
+            <br>
+
+            <label for="">foto</label>
+            <input type="file" name="Foto" id=""required>
+            <br>
+        <fieldset>
+             <p>Modalidade preferida</p>
+            <label for="">presencial</label>
+            <input type="radio" name="presencial" id="mod-presencial">
+            <br>
+
+            <label for="">online</label>
+            <input type="radio" name="online" id="mod-online">
+        </fieldset>
+           
+        <fieldset>
+            <legend>Temas preferidos</legend>
+            <label for="">Frontend</label>
+            <input value ="frontend"type="checkbox" name="frontend" id="frontend">
+            <br>
+
+            <label for="">Backend</label>
+            <input value ="Backend"type="checkbox" name="Backend" id="Backend">
+            <br>
+
+            <label for="">Dados</label>
+            <input value ="dados"type="checkbox" name="Dados" id="Dados">
+            <br>
+
+            <label for="">UX/UI</label>
+            <input value ="UX/UI"type="checkbox" name="UX/UI" id="UX/UI">
+        </fieldset>
+    
+        <fieldset>
+        <legend>Escolha o mini curso</legend>
+            <select name="curso" id="curso">
+            <option value="Angular">Angular</option>
+            <option value="Java">Java</option>
+            <option value="html">html</option>
+            <option value="JS">JS</option>
+            <option value="python">python</option>
+            </select>
+        </fieldset>
+        <label for="objetivos">Quais sao seus objetivos com esse mincurso?</label>
+        
+        <textarea 
+        name="objetivos" 
+        id="objetivos" 
+        rows="4"
+        placeholder="Explique brevemente porque deseja participar?"
+        ></textarea>
+        
+        
+
+
+                
+            <div>
+                <br>
+                <button>selecionar dados</button>
+                <button>Limpar dados</button>
+            </div>
+        </form>
+    </main>
+  
+    
+</body>
+</html>
